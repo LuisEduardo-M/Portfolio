@@ -1,0 +1,11 @@
+.home_container {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 11rem;
+    text-align: center;
+}
+
+.image_container {
+    text-align: end;
+}
