@@ -1,10 +1,11 @@
 .header_container {
     position: relative;
-    top: 2.1rem;
+    top: 1.9rem;
 }
 
-.header_container h1 {
+.header_container h1 a {
     font-size: 1.1rem;
+    vertical-align: middle;
 }
 
 .header_container ul {
@@ -12,6 +13,7 @@
 }
 
 .header_container ul li {
+    vertical-align: middle;
     list-style: none;
     display: inline-block;
     padding-left: 2rem;

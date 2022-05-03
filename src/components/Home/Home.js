@@ -3,9 +3,8 @@ import styles from './Home.module.css';
 
 const Home = () => {
     return (
-            <div className={styles.home_container}>
-                <div className='container'>
-
+        <div className={styles.home_container}>
+            <div className='container'>
                 <div className='row'>
                     <div className='col-md-6'>
 
@@ -20,14 +19,13 @@ const Home = () => {
                     <div className='col-md-6'>
 
                         <div className={styles.image_container}>
-                            <img src='./profile.jpg' alt="Profile" />
+                            <img className='img-fluid' src='./profile.jpg' alt="Profile" />
                         </div>
 
                     </div>
                 </div>
-                </div>
             </div>
-
+        </div>
     );
 };
 
