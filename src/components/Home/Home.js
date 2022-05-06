@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className={styles.home_container}>
             <div className='container'>
-                <div className='row'>
+                <div className='row d-flex justify-content-between'>
                     <div className='col-md-6'>
 
                         <h1 className="display-5">
@@ -16,12 +16,12 @@ const Home = () => {
                         <p className='lead'>Estudante de Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
                     </div>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-auto'>
                         <div className={styles.image_container}>
-                            <img className='img-fluid' src='./profile.jpg' alt="Profile" />
+                            <img src='./profile.jpg' alt="Profile" />
                         </div>
-
                     </div>
+
                 </div>
             </div>
         </div>
