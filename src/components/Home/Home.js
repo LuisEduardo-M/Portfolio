@@ -8,16 +8,15 @@ const Home = () => {
                 <div className='row'>
                     <div className='col-md-6'>
 
-                        <h1>
+                        <h1 className="display-5">
                             Prazer, sou<br />
-                            <span>Luis Eduardo Meduna Cabreira</span>
-                        </h1>
+                            <span className="display-2">Luis Eduardo Meduna Cabreira</span>
+                        </h1><br />
 
-                        <p>Estudante de Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
+                        <p className='lead'>Estudante de Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
                     </div>
 
                     <div className='col-md-6'>
-
                         <div className={styles.image_container}>
                             <img className='img-fluid' src='./profile.jpg' alt="Profile" />
                         </div>

@@ -8,19 +8,19 @@ const Projects = () => {
                 <div className={styles.projects_grid}>
 
                     <div className="row">
-                        <div className="col-md-4 col-sm-6">
+                        <div className="col col-md-4 ">
                             <p>project1</p>
                         </div>
                     </div>
 
                     <div className="row">
-                        <div className="col-md-4 col-sm-6">
-                            <p>project1</p>
+                        <div className="col col-md-4">
+                            <p>project2</p>
                         </div>
                     </div>
 
                     <div className="row">
-                        <div className="col-md-4 col">
+                        <div className="col col-md-4">
                             <p>project3</p>
                         </div>
                     </div>
