@@ -13,10 +13,10 @@ const Home = () => {
                             <span className="display-2">Luis Eduardo Meduna Cabreira</span>
                         </h1><br />
 
-                        <p className='lead'>Estudante de Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
+                        <p className='lead'>Graduando em Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
                     </div>
 
-                    <div className='col-md-auto'>
+                    <div className='col-md-auto d-flex justify-content-center'>
                         <div className={styles.image_container}>
                             <img src='./profile.jpg' alt="Profile" />
                         </div>

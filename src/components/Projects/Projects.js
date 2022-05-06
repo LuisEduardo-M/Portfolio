@@ -5,24 +5,25 @@ const Projects = () => {
     return (
         <div className={styles.projects_container}>
             <div className="container">
-                <div className={styles.projects_grid}>
+                <div className="row">
 
-                    <div className="row">
-                        <div className="col col-md-4 ">
-                            <p>project1</p>
-                        </div>
+                    <div className="col-sm-6 col-md-4">
+                        <h1>project1</h1>
                     </div>
 
-                    <div className="row">
-                        <div className="col col-md-4">
-                            <p>project2</p>
-                        </div>
+                    <div className="col-sm-6 col-md-4">
+
+                        <h1>project2</h1>
                     </div>
 
-                    <div className="row">
-                        <div className="col col-md-4">
-                            <p>project3</p>
-                        </div>
+                    <div className="col-sm-6 col-md-4">
+                        <h1>project3</h1>
+
+                    </div>
+
+                    <div className="col-sm-6 col-md-4">
+                        <h1>project4</h1>
+
                     </div>
                 </div>
             </div>
