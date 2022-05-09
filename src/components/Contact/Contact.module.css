@@ -1,7 +1,17 @@
 .contact_container {
-    margin-top: 22.5rem;
+    margin-top: 18.5rem;
 }
 
+.contact_container h1 {
+    font-weight: bold;
+}
 .contact_container p {
     font-size: 1.3rem;
+}
+
+.email_link {
+    position: relative;
+    top: 5rem;
+    color: #000;
+    text-decoration: none;
 }

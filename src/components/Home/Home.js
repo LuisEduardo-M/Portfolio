@@ -5,12 +5,12 @@ const Home = () => {
     return (
         <div className={styles.home_container}>
             <div className='container'>
-                <div className='row d-flex justify-content-between'>
+                <div className='row d-flex justify-content-lg-between justify-content-md-center'>
                     <div className='col-md-6'>
 
-                        <h1 className="display-5">
+                        <h1 className="display-4">
                             Prazer, sou<br />
-                            <span className="display-2">Luis Eduardo Meduna Cabreira</span>
+                            <span>Luis Eduardo Meduna Cabreira</span>
                         </h1><br />
 
                         <p className='lead'>Graduando em Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>

@@ -1,11 +1,3 @@
-/* .projects_grid {
-    margin-top: 21.2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border: 1px solid red;
-}  */
-
 .projects_container {
     margin-top: 21.2rem;
     display: flex;
@@ -14,4 +6,9 @@
 
 .projects_container h1 {
     text-align: center;
+}
+
+.projects_container h2 {
+    margin-bottom: 6.2rem;
+    font-weight: bold;
 }

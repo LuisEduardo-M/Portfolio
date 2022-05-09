@@ -11,3 +11,9 @@
     height: 25rem;
     width: 23rem;
 }
+
+.home_container span {
+    color:rgb(123, 123, 255);
+    font-size: 4.7rem;
+    font-weight: bold;
+}
