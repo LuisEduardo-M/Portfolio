@@ -13,7 +13,7 @@ const Home = () => {
                             <span>Luis Eduardo Meduna Cabreira</span>
                         </h1><br />
 
-                        <p className='lead'>Graduando em Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias que envolvem Web Development.</p>
+                        <p>Graduando em Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias envolvidas no Web Development.</p>
                     </div>
 
                     <div className='col-md-auto d-flex justify-content-center'>
