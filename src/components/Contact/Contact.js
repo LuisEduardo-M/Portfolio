@@ -1,4 +1,5 @@
 import React from "react";
+import myData from "../../myData";
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -11,13 +12,13 @@ const Contact = () => {
                     </div>
 
                     <div>
-                        <p>Caso tenha alguma dúvida, fique a vontade para me enviar um e-mail ou mensagem pelo LinkedIn!</p>
+                        <p>{myData.contactText}</p>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col d-flex justify-content-center">
-                        <a className={styles.email_link} href="mailto:luiseduardomc019@gmail.com">luiseduardomc019@gmail.com</a>
+                        <a className={styles.email_link} href="mailto:luiseduardomc019@gmail.com">{myData.contactEmail}</a>
                     </div>
                 </div>
 

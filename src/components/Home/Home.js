@@ -1,4 +1,5 @@
 import React from 'react';
+import myData from '../../myData';
 import styles from './Home.module.css';
 
 const Home = () => {
@@ -10,10 +11,10 @@ const Home = () => {
 
                         <h1 className="display-4">
                             Prazer, sou<br />
-                            <span>Luis Eduardo Meduna Cabreira</span>
+                            <span>{myData.homeName}</span>
                         </h1><br />
 
-                        <p>Graduando em Sistemas de Informação pela UniFOA em Volta Redonda. Atualmente estou masterizando tecnologias envolvidas no Web Development.</p>
+                        <p>{myData.homeText}</p>
                     </div>
 
                     <div className='col-md-auto d-flex justify-content-center'>
