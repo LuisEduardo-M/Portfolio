@@ -1,20 +1,20 @@
 .home_container {
-    position: relative;
-    top: 11rem;
+  position: relative;
+  top: 11rem;
 }
 
 .home_container p {
-    font-size: 1.6rem;
-    font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .image_container img {
-    height: 25rem;
-    width: 23rem;
+  height: 25rem;
+  width: 23rem;
 }
 
 .home_container span {
-    color:rgb(123, 123, 255);
-    font-size: 4.7rem;
-    font-weight: bold;
+  color: rgb(123, 123, 255);
+  font-size: 4.7rem;
+  font-weight: bold;
 }

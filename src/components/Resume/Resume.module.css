@@ -1,0 +1,6 @@
+.resume_container {
+  top: 10rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}

@@ -1,14 +1,14 @@
 .projects_container {
-    margin-top: 21.2rem;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 21.2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .projects_container h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .projects_container h2 {
-    margin-bottom: 6.2rem;
-    font-weight: bold;
+  margin-bottom: 6.2rem;
+  font-weight: bold;
 }
