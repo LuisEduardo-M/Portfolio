@@ -1,7 +1,12 @@
 import React from "react";
+
 import styles from "./Header.module.css";
 
 const Header = () => {
+  const contactScroll = () => {
+    window.scrollTo(0, 1919);
+  }
+
   return (
     <div className={styles.header_container}>
       <div className="container ">
@@ -19,7 +24,7 @@ const Header = () => {
                   <a href="/curriculo">currículo</a>
                 </li>
                 <li>
-                  <a href="/">contato</a>
+                  <button onClick={contactScroll}>contato</button>
                 </li>
               </ul>
             </nav>

@@ -9,6 +9,7 @@
 }
 
 .image_container img {
+  border-radius: 0.5rem;
   height: 25rem;
   width: 23rem;
 }
@@ -17,4 +18,16 @@
   color: rgb(123, 123, 255);
   font-size: 4.7rem;
   font-weight: bold;
+}
+
+/* Image animation*/
+figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
 }

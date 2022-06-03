@@ -1,4 +1,5 @@
 import React from "react";
+
 import myData from "../../myData";
 import styles from "./Home.module.css";
 
@@ -20,7 +21,7 @@ const Home = () => {
 
           <div className="col-md-auto d-flex justify-content-center">
             <div className={styles.image_container}>
-              <img src="./profile.jpg" alt="Profile" />
+              <figure><img src="./profile.jpg" alt="Profile" /></figure>
             </div>
           </div>
         </div>
