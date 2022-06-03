@@ -21,7 +21,7 @@ const Home = () => {
 
           <div className="col-md-auto d-flex justify-content-center">
             <div className={styles.image_container}>
-              <figure><img src="./profile.jpg" alt="Profile" /></figure>
+              <figure><img src={myData.image} alt="Profile" /></figure>
             </div>
           </div>
         </div>
