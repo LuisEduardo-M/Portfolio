@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Header />
-      <Home {...myData}/>
+      <Home {...myData} />
       <Projects />
-      <Contact {...myData}/>
+      <Contact {...myData} />
     </>
   );
 }

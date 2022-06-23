@@ -5,10 +5,6 @@
 }
 
 .projects_container h1 {
-  text-align: center;
-}
-
-.projects_container h2 {
-  margin-bottom: 6.2rem;
-  font-weight: bold;
+  font-weight: 500;
+  margin-top: 4rem;
 }
